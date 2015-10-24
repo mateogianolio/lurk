@@ -1,7 +1,7 @@
 lurk
 ====
 
-Tiny python script which converts HTML from web pages that match a certain CSS pattern into JSON.
+A script which extracts HTML from web pages that match a certain CSS pattern.
 ::
 
     $ pip install lurk
@@ -12,15 +12,19 @@ usage
 
 **in python**
 
+In python, lurk returns a dictionary:
+
 ::
 
     from lurk import lurk
 
     for link in lurk('http://en.wikipedia.org/wiki/en', 'a'):
         if 'href' in link:
-            print link
+            print link['href']
 
 **in bash**
+
+In bash, lurk returns JSON.
 
 Familiarize yourself with `CSS attribute selectors <https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors>`_.
 

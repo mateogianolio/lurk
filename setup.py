@@ -10,8 +10,8 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='lurk',
-    version='0.1.0',
-    description='Extract html as json from one or multiple url\'s',
+    version='0.1.1',
+    description='Extract html from one or multiple url\'s',
     long_description=long_description,
     url='https://github.com/mateogianolio/lurk',
     author='Mateo Gianolio',
@@ -20,7 +20,7 @@ setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Data Collection',
+        'Topic :: Software Development :: Libraries',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
