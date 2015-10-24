@@ -10,8 +10,8 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='lurk',
-    version='0.1.2',
-    description='Extract html from one or multiple url\'s',
+    version='0.1.3',
+    description='Extract html from one or multiple urls',
     long_description=long_description,
     url='https://github.com/mateogianolio/lurk',
     author='Mateo Gianolio',
