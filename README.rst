@@ -20,12 +20,13 @@ usage
         if 'href' in link:
             print link
 
-**in terminal**
+**in bash**
 
-Familiarize yourself with [CSS attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
+Familiarize yourself with `CSS attribute selectors <https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors>`_.
+
 ::
 
-    $ ./lurk \
+    $ lurk \
     http://www.gnu.org/software/libc/manual/html_node/Function-Index.html \
     'a[href*="#index-"]' \
     > links.json
