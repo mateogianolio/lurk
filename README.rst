@@ -9,6 +9,9 @@ Tiny python script which converts HTML from web pages that match a certain CSS p
 =====
 usage
 =====
+
+**in python**
+
 ::
 
     from lurk import lurk
@@ -17,9 +20,7 @@ usage
         if 'href' in link:
             print link
 
-=======
-example
-=======
+**in terminal**
 
 Familiarize yourself with [CSS attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 ::
@@ -29,7 +30,8 @@ Familiarize yourself with [CSS attribute selectors](https://developer.mozilla.or
     'a[href*="#index-"]' \
     > links.json
 
-This command yields a JSON object containing an array of links to all GNU C functions:
+This command saves a JSON object containing an array of links to all GNU C functions into **links.json**:
+
 ::
 
     [
